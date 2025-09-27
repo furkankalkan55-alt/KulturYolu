@@ -1,0 +1,7 @@
+<!doctype html><html><head>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0ea5e9"><meta charset='utf-8'><title>Kültür Yolu</title></head><body><h1>Kültür Yolu</h1><script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js").catch(()=>{}));
+}
+</script></body></html>
