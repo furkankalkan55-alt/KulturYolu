@@ -1,0 +1,8 @@
+{
+  "appId": "com.kulturyolu.app",
+  "appName": "Kültür Yolu",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
